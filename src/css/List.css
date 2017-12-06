@@ -1,0 +1,20 @@
+ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 20px;
+}
+ul li{
+    font-size: 17px;
+    font-style: italic;
+    line-height: 1em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    border-bottom: 1px dashed #ECE6C0;
+    display: flex;
+    justify-content: space-between;
+}
+ul li small{
+    margin-left: auto;
+    cursor: pointer;
+}

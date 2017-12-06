@@ -1,0 +1,35 @@
+form{
+    display: flex;
+    justify-content: space-between;
+}
+form input{
+    height: 40px;
+    border: none;
+    flex-grow: 3;
+    background-color: white;
+    font-size: 18px;
+    padding-left: 0.5em;
+}
+form input:focus{
+    outline: none;
+}
+form input[type="submit"]{
+    background-color: #D26787;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 0;
+    font-family: sans-serif;
+    flex-grow: 1;
+    transition: background-color 100ms linear;
+    font-size: 18px;
+    margin-left: 1em;
+
+}
+form input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #D25F81;
+}
+form input[type="submit"]:active{
+    outline: none;
+    background-color: #54D1A0;
+}
